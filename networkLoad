@@ -1,0 +1,2 @@
+# ネットワーク負荷をファイルを送信することと帯域制限することで実現
+/usr/bin/rsync -vau --bwlimit=10 -e ssh /tmp/hoge.dat [hostName]:/tmp/hoge.dat
